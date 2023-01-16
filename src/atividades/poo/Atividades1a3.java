@@ -66,7 +66,13 @@ public class Atividades1a3 {
             System.out.println("Idade: " + idade);
             System.out.println("Endereço: " + endereco);
         }
-    }*/
+    }
+    Cliente cliente1 = new Cliente("Mauricio", "mauricio@teste.com", "123.123.123-82", 25, "Rua Generation, 19");
+        Cliente cliente2 = new Cliente("Bob", "bob@teste.com", "321.321.321-82", 30, "Rua Generation, 25");
+
+        cliente1.visualizar();
+        cliente2.visualizar();
+    */
 
     // Atividade 2
     /*package atividades.poo.atividade2;
@@ -133,7 +139,13 @@ public class Atividades1a3 {
             System.out.println("Salário: " + salario);
             System.out.println("Endereço: " + endereco);
         }
-    }*/
+    }
+    Funcionario funcionario1 = new Funcionario("Robertinho", "robertinho@empresa.com", "Desenvolvedor Back-end", 6760, "Rua Generation, 127");
+        Funcionario funcionario2 = new Funcionario("Bruninho", "bruninho@empresa.com", "Desenvolvedor Front-end", 6760, "Rua Generation, 240");
+
+        funcionario1.visualizar();
+        funcionario2.visualizar();
+    */
 
     // Atividade 3
     /*package atividades.poo.atividade3;
@@ -200,6 +212,12 @@ public class Atividades1a3 {
             System.out.println("Ano de lançamento: " + anoDeLancamento);
             System.out.println("Produtora: " + produtora);
         }
-    }*/
+    }
+    Produto produto1 = new Produto("FIFA 23", 299.00f, "Esporte", 2022, "EA Games");
+        Produto produto2 = new Produto("COD MW2", 299.00f, "Ação", 2022, "Activision");
+
+        produto1.visualizar();
+        produto2.visualizar();
+    */
 
 }
