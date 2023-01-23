@@ -3,10 +3,11 @@ package atividades.pooHeranca.atividade1;
 public class PessoaFisica extends Cliente {
     private String cpf;
 
-    public PessoaFisica(String nome, String email, String profissao, int idade, String endereco,String cpf) {
+    public PessoaFisica(String nome, String email, String profissao, int idade, String endereco, String cpf) {
         super(nome, email, profissao, idade, endereco);
         this.cpf = cpf;
     }
+
 
     public String getCpf() {
         return cpf;
